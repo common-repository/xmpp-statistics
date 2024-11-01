@@ -1,0 +1,304 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: XMPP Statistics\n"
+"POT-Creation-Date: 2024-10-27 18:29+0100\n"
+"PO-Revision-Date: 2019-09-12 15:34+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/charts.php:52 includes/charts.php:181 includes/settings.php:365
+#: includes/settings.php:366
+msgid "Logged in users"
+msgstr ""
+
+#: includes/charts.php:52 includes/charts.php:297 includes/charts.php:494
+#: includes/charts.php:689 includes/charts.php:884 includes/charts.php:1135
+#: includes/charts.php:1386 includes/charts.php:1637 includes/settings.php:365
+#: includes/settings.php:367 includes/settings.php:369
+#: includes/settings.php:371 includes/settings.php:373
+#: includes/settings.php:375 includes/settings.php:377
+msgid "by day"
+msgstr ""
+
+#: includes/charts.php:52 includes/charts.php:181 includes/charts.php:297
+#: includes/charts.php:396 includes/charts.php:494 includes/charts.php:591
+#: includes/charts.php:689 includes/charts.php:786 includes/charts.php:884
+#: includes/charts.php:1013 includes/charts.php:1135 includes/charts.php:1264
+#: includes/charts.php:1386 includes/charts.php:1515 includes/charts.php:1637
+#: includes/charts.php:1766 includes/simple.php:37 includes/simple.php:59
+#: includes/simple.php:81 includes/simple.php:103 includes/simple.php:125
+#: includes/simple.php:147 includes/simple.php:170 includes/simple.php:196
+#: includes/simple.php:218 includes/simple.php:240
+msgid "Loading"
+msgstr ""
+
+#: includes/charts.php:169 includes/charts.php:170 includes/charts.php:285
+#: includes/charts.php:286 includes/charts.php:385 includes/charts.php:483
+msgid "users at"
+msgstr ""
+
+#: includes/charts.php:170 includes/charts.php:286 includes/charts.php:1002
+#: includes/charts.php:1124 includes/charts.php:1253 includes/charts.php:1375
+#: includes/charts.php:1504 includes/charts.php:1626 includes/charts.php:1755
+#: includes/charts.php:1877
+msgid "Previously"
+msgstr ""
+
+#: includes/charts.php:181 includes/charts.php:396 includes/charts.php:591
+#: includes/charts.php:786 includes/charts.php:1013 includes/charts.php:1264
+#: includes/charts.php:1515 includes/charts.php:1766 includes/settings.php:366
+#: includes/settings.php:368 includes/settings.php:370
+#: includes/settings.php:372 includes/settings.php:374
+#: includes/settings.php:376 includes/settings.php:378
+msgid "by week"
+msgstr ""
+
+#: includes/charts.php:297 includes/charts.php:396 includes/settings.php:367
+#: includes/settings.php:368
+msgid "Registered users"
+msgstr ""
+
+#: includes/charts.php:494 includes/charts.php:591 includes/settings.php:348
+#: includes/settings.php:369 includes/settings.php:370
+msgid "XMPP server uptime"
+msgstr ""
+
+#: includes/charts.php:689 includes/charts.php:786 includes/settings.php:350
+#: includes/settings.php:371 includes/settings.php:372
+msgid "System uptime"
+msgstr ""
+
+#: includes/charts.php:884 includes/charts.php:1013 includes/settings.php:351
+#: includes/settings.php:373 includes/settings.php:374
+msgid "RAM memory usage"
+msgstr ""
+
+#: includes/charts.php:1001 includes/charts.php:1002 includes/charts.php:1123
+#: includes/charts.php:1124 includes/charts.php:1252 includes/charts.php:1253
+#: includes/charts.php:1374 includes/charts.php:1375
+msgid "MB at"
+msgstr ""
+
+#: includes/charts.php:1135 includes/charts.php:1264
+msgid "Disk usage"
+msgstr ""
+
+#: includes/charts.php:1386 includes/charts.php:1515 includes/settings.php:375
+#: includes/settings.php:376
+msgid "Outgoing S2S connections"
+msgstr ""
+
+#: includes/charts.php:1503 includes/charts.php:1504 includes/charts.php:1625
+#: includes/charts.php:1626 includes/charts.php:1876 includes/charts.php:1877
+msgid "outgoing connections at"
+msgstr ""
+
+#: includes/charts.php:1637 includes/charts.php:1766 includes/settings.php:377
+#: includes/settings.php:378
+msgid "Incoming S2S connections"
+msgstr ""
+
+#: includes/charts.php:1754 includes/charts.php:1755
+msgid "incoming connections at"
+msgstr ""
+
+#: includes/cron.php:41
+msgid "Once Every 5 Minutes"
+msgstr ""
+
+#: includes/settings.php:29
+msgid "Settings"
+msgstr ""
+
+#: includes/settings.php:129
+msgid "XMPP server statistics"
+msgstr ""
+
+#: includes/settings.php:138
+msgid "ReST API"
+msgstr ""
+
+#: includes/settings.php:143
+msgid "API address"
+msgstr ""
+
+#: includes/settings.php:146
+msgid "Enter URL address defined for module mod_http_api in ejabberd settings."
+msgstr ""
+
+#: includes/settings.php:150
+msgid "Login"
+msgstr ""
+
+#: includes/settings.php:156
+msgid "Password"
+msgstr ""
+
+#: includes/settings.php:162
+msgid "OAuth token"
+msgstr ""
+
+#: includes/settings.php:165
+#, php-format
+msgid ""
+"Use instead of classic login and password access. The plugin doesn't "
+"generate and check the expiration date of OAuth tokens, so you need to "
+"generate OAuth token for your own with long expiration date. To generate a "
+"token use the oauth_issue_token command with the ejabberdctl shell script e."
+"g.: %s"
+msgstr ""
+
+#: includes/settings.php:173
+msgid "Charts with statistics"
+msgstr ""
+
+#: includes/settings.php:178
+msgid "Statistics"
+msgstr ""
+
+#: includes/settings.php:180
+msgid "Save statistics"
+msgstr ""
+
+#: includes/settings.php:181
+#, php-format
+msgid ""
+"Automatically retrieves server statistics every 5 minutes and stores them in "
+"a database. WP Cron fires only on the page visit, so plugin may work "
+"incorrectly - to prevent such situations, you must disable WP Cron by adding "
+"%s to wp-config.php and adding a task to the system cron, for example: %s."
+msgstr ""
+
+#: includes/settings.php:185
+msgid "Cleaning"
+msgstr ""
+
+#: includes/settings.php:187
+msgid "Automatically delete unnecessary data from the database"
+msgstr ""
+
+#: includes/settings.php:188
+msgid ""
+"Use this option with caution - it irrevocably removes data older than 2 "
+"weeks!"
+msgstr ""
+
+#: includes/settings.php:192
+msgid "Charts width"
+msgstr ""
+
+#: includes/settings.php:198
+msgid "Charts height"
+msgstr ""
+
+#: includes/settings.php:204
+msgid "Charts lines color"
+msgstr ""
+
+#: includes/settings.php:213
+msgid "Charts grid color"
+msgstr ""
+
+#: includes/settings.php:219
+msgid "Previous data in charts"
+msgstr ""
+
+#: includes/settings.php:222
+msgid "from yesterday"
+msgstr ""
+
+#: includes/settings.php:222
+msgid "from last week"
+msgstr ""
+
+#: includes/settings.php:223
+msgid "Specifies the data range for daily charts."
+msgstr ""
+
+#: includes/settings.php:229
+msgid "Save settings"
+msgstr ""
+
+#: includes/settings.php:237
+msgid "If you like this plugin please give a review at WordPress.org."
+msgstr ""
+
+#: includes/settings.php:243
+msgid "Usage information"
+msgstr ""
+
+#: includes/settings.php:249
+#, php-format
+msgid ""
+"Make sure that you have the latest version of ejabberd - plugin requires at "
+"least ejabberd %s."
+msgstr ""
+
+#: includes/settings.php:250
+#, php-format
+msgid ""
+"Check that module mod_http_api in ejabberd is properly configured. Example "
+"configuration (more information <a href=\"%s\" target=\"_blank\">here</a>):"
+msgstr ""
+
+#: includes/settings.php:269
+msgid ""
+"Then configure ReST API url and authorization data, finally put shortcodes "
+"on some page."
+msgstr ""
+
+#: includes/settings.php:270
+msgid ""
+"For information about the system, use e.g. Nginx and Lua module. Plugin will "
+"be connect to ReST API url with endpoint with name same as shortcode. "
+"Example configuration:"
+msgstr ""
+
+#: includes/settings.php:337
+msgid "Simple shortcodes"
+msgstr ""
+
+#: includes/settings.php:344
+msgid "Online users count"
+msgstr ""
+
+#: includes/settings.php:344 includes/settings.php:345
+#: includes/settings.php:346 includes/settings.php:347
+#: includes/settings.php:348 includes/settings.php:349
+msgid "Command"
+msgstr ""
+
+#: includes/settings.php:345
+msgid "Registered users count"
+msgstr ""
+
+#: includes/settings.php:346
+msgid "Outgoing s2s connections count"
+msgstr ""
+
+#: includes/settings.php:347
+msgid "Incoming s2s connections count"
+msgstr ""
+
+#: includes/settings.php:349
+msgid "XMPP server version"
+msgstr ""
+
+#: includes/settings.php:352
+msgid "System version"
+msgstr ""
+
+#: includes/settings.php:358
+msgid "Shortcodes for charts"
+msgstr ""
